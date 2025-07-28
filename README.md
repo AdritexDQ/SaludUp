@@ -1,15 +1,16 @@
 # Iniciar-Sesion-Registrarse
 
 class Usuario:
+
     def __init__(self, nombre, correo, contraseña):
         self.nombre = nombre
         self.correo = correo
         self.contraseña = contraseña
 
 class ControlAcceso:
+
     def __init__(self):
         self.usuarios = []
-
     def registrar_usuario(self, nombre, correo, contraseña):
         if self.buscar_usuario(correo):
             return False, "❌ El correo ya está registrado."
@@ -31,6 +32,7 @@ class ControlAcceso:
 
 
 class UIAcceso:
+
     def __init__(self, controlador):
         self.controlador = controlador
 
@@ -69,6 +71,7 @@ class UIAcceso:
 
 
 if __name__ == "__main__":
+
     controlador = ControlAcceso()
     interfaz = UIAcceso(controlador)
     interfaz.mostrar_menu()
