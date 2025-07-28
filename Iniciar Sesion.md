@@ -1,4 +1,4 @@
-# Iniciar-Sesion-Registrarse
+# Iniciar Sesion | Registrarse
 
 class Usuario:
 
