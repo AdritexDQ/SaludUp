@@ -35,7 +35,7 @@ class ControlReservaCita:
         self.citas = []
 
     def mostrar_medicos(self):
-        print("\n📋 Médicos disponibles:")
+        print("\n Médicos disponibles:")
         for i, medico in enumerate(self.medicos):
             print(f"{i + 1}. {medico.nombre} - {medico.especialidad}")
 
@@ -58,7 +58,7 @@ class UIReservaCita:
         self.controlador = controlador
 
     def iniciar_reserva(self):
-        print("\n🩺 Sistema de Reserva de Citas Médicas")
+        print("\n Sistema de Reserva de Citas Médicas")
         nombre = input("Ingrese su nombre: ")
         id_paciente = input("Ingrese su ID de paciente: ")
         paciente = Paciente(nombre, id_paciente)
