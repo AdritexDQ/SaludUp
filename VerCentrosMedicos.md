@@ -28,8 +28,8 @@ class ControlCentros:
             "Av. Bolívar #1450", "08:00 - 20:00", "44567890"
         ))
         self.centros.append(CentroSalud(
-            "Hospital Municipal Norte", "Hospital",
-            "Av. Naciones Unidas #1200", "24 horas", "44567999"
+            "Hospital Cochabamba", "Hospital",
+            "Av. I. Montes #1200", "24 horas", "44567999"
         ))
         self.centros.append(CentroSalud(
             "Posta San Pedro", "Posta",
