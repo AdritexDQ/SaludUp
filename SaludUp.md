@@ -526,11 +526,11 @@ class UIHistorial:
                 self.mostrar_recetas(historial)
             elif opcion == "4":
                 desc = input("Descripción del diagnóstico: ")
-                fecha = input("Fecha (YYYY-MM-DD): ")
+                fecha = input("Fecha (DD-MM-YYYY): ")
                 self.controlador.agregar_diagnostico(paciente.id_paciente, desc, fecha)
             elif opcion == "5":
                 meds = input("Medicamentos (separados por coma): ").split(",")
-                fecha = input("Fecha (YYYY-MM-DD): ")
+                fecha = input("Fecha (DD-MM-YYYY): ")
                 self.controlador.agregar_receta(paciente.id_paciente, [m.strip() for m in meds], fecha)
             elif opcion == "6":
                 break
