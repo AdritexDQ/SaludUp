@@ -649,6 +649,6 @@ def main():
     menu.ejecutar()
 
 
-# Ejecutar sistema
 if __name__ == "__main__":
+
     main()
